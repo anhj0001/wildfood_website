@@ -1,0 +1,38 @@
+/* ______________GRIDS_________ */
+.grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.row_2-3 {
+    grid-row: 2/3;
+    grid-column: 2/-1;
+}
+
+.row_3-4 {
+    grid-row: 3/4;
+}
+
+/* _______________RESPONSIV_____________ */
+/* ---productlist--- */
+@media (min-width: 1000px) {
+    .info_cirkel{
+       border-style: solid;
+       border-width: medium;
+       background-color: white;
+       border-color: white;
+       text-align: center;
+       border-radius: 100%;
+       padding: 70px;
+       margin-left: 70px;
+       margin-right: 70px;
+    }
+    
+  }
+
+  @media (max-width: 700px){
+    .grid_1-1 {
+        display: block;
+    }
+  }
+
