@@ -8,8 +8,12 @@ body{
 /* ____________________FOOTER__________________ */
 footer{
     background-color: #CAE4AE;
-    padding: 150px;
+       padding: 0;
+       margin: 0;
+       height: 120px;
 }
+
+
 /* ______________CATEGORY___________________ */
 .category {
     font-size: 40px;
@@ -25,7 +29,27 @@ footer{
     text-align: center;
 }
 
+.ca_h1{
+    text-align: center;
+    border-style: solid;
+    border-width: medium;
+    background-color: white;
+    border-color: white;
+    opacity: 0.7;
+    margin-left:35rem ;
+    margin-right:35rem ;
+}
+
+
 /* _________________PRODUCTLIST____________ */
+
+.introduktion{
+    margin: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: left;
+}
+
 .info_prodlist {
     border-style: solid;
     border-width: medium;
@@ -35,6 +59,16 @@ footer{
     text-align: center;
     margin: 50px;
 }
+
+.pl_season{
+    border-bottom: 2px solid black;
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+
+
+/* _________________PRODUCT____________ */
+
 
 .info_cirkel {
         border-style: solid;
