@@ -10,19 +10,40 @@ footer{
     background-color: #CAE4AE;
        padding: 0;
        margin: 0;
-       height: 170px;
+       height: 180px;
 }
 
 .nyhedsbrev {
 text-align: left;
-padding: 5px;
-
+padding: 1px;
+margin-left: 70rem;
 }
 
 .send{
     background-color: #009806;
     color: white;
     margin-top: 5px;
+}
+
+.footer_logo{
+    position: absolute;
+    top: 46rem;
+    left: 35rem;
+    max-width: 20%;
+}
+
+.footer_insta{
+    position: absolute;
+    top: 48.5rem;
+    left: 7rem;
+    max-width: 20rem ;
+}
+
+.footer_face{
+    position: absolute;
+    top: 48rem;
+    left: 14rem;
+    max-width: 20rem;
 }
 
 /* ______________CATEGORY___________________ */
