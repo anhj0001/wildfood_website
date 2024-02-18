@@ -1,6 +1,6 @@
 /* __________________BAGGRUND______________ */
 body{
-    background-image: url(../image/background.jpg);
+    background-image: url(../image/bg2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -84,7 +84,19 @@ a:hover{
     margin-right: 20rem;
 }
 
+img{
+    max-width: 300px;
+}
 
+.description
+{
+  max-width: 300px;
+}
+
+.template{
+    padding-left: 50px;
+    margin-bottom: 30px;
+}
 /* _________________PRODUCT____________ */
 
 

@@ -4,6 +4,15 @@
     grid-template-columns: 1fr 1fr;
 }
 
+.grid_1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.info_prodlist{
+    grid-column: 1 / -1; 
+}
+
 .row_2-3 {
     grid-row: 2/3;
     grid-column: 2/-1;
