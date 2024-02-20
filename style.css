@@ -14,24 +14,19 @@ footer{
     background-color: #CAE4AE;
        padding: 0;
        margin: 0;
-       height: 170px;
+       height: 180px;
 }
 
 .nyhedsbrev {
 text-align: left;
-padding: 5px;
-
+padding: 1px;
+margin-left: 70rem;
 }
 
 .send{
     background-color: #009806;
     color: white;
     margin-top: 5px;
-}
-
-.pic_product{
-    padding-left: 570px;
-    margin-top: 55px;
 }
 
 /* ______________CATEGORY___________________ */
