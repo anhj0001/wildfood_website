@@ -2,15 +2,21 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 10px;
   background-color: #fff;
+  opacity: 90%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: -1;
 }
 
 .logo img {
   max-width: auto;
-  width: 150px;
-  height: 80px;
+  width: 170px;
+  height: 100px;
+  margin-left: 600px;
+  opacity: 100%;
+  position: relative;
+  z-index: 1;
 }
 
 nav {
@@ -26,11 +32,13 @@ nav {
 }
 
 .menu li {
-  margin-right: 20px;
+  margin-right: 100px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .menu li:last-child {
-  margin-right: 0;
+  margin-right: 30px;
 }
 
 .menu a {
@@ -39,7 +47,7 @@ nav {
   color: #333;
   text-decoration: none;
   transition: color 0.3s;
-  text-align: end;
+  justify-content: space-between;
 }
 
 .menu a:hover {
