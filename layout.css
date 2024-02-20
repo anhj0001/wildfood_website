@@ -40,8 +40,29 @@
   }
 
   @media (max-width: 700px){
+    
+/*     -------PRODUKT----- */
     .grid_1-1 {
         display: block;
+    }
+
+    .pic_product{
+        padding-left: 100px;
+    }
+
+ /*    ------PRODUKTLISTE---- */
+
+    .grid_1-1-1 {
+        display: block;
+    }
+
+    .info_prodlist {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .pl_season {
+        margin: 0;
     }
   }
 

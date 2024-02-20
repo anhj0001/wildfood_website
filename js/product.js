@@ -27,6 +27,10 @@ function showProdut(product) {
 
     copy.querySelector("p").textContent = product[0].Description;
     copy.querySelector("h1").textContent = product[0].Name;
+    copy.querySelector(".info_cirkel1 p").textContent = product[0].Where_to_find;
+    copy.querySelector(".info_cirkel2 p").textContent = product[0].how_to_pick;
+    copy.querySelector(".info_cirkel3 p").textContent = product[0].how_to_spot;
+    copy.querySelector("img").src = product[0].prof_img; 
 
     document.querySelector("main").appendChild(copy);
 }

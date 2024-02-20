@@ -22,7 +22,9 @@ function showItem(item) {
   const copy = template.cloneNode(true);
 
     copy.querySelector("h2").textContent = item.Name;
-/*   copy.querySelector("p").textContent = item.Description; */
+    copy.querySelector("img").src = item.prof_img;
+    
+/*     copy.querySelector("p").textContent = item.Description;  */
 
 copy.querySelector(".read_more").setAttribute("href",`product.html?id=${item.id}`);
 

@@ -5,6 +5,10 @@ body{
     background-size: cover;
 }
 
+p {
+    line-height: 1.5em;
+}
+
 /* ____________________FOOTER__________________ */
 footer{
     background-color: #CAE4AE;
@@ -23,6 +27,11 @@ padding: 5px;
     background-color: #009806;
     color: white;
     margin-top: 5px;
+}
+
+.pic_product{
+    padding-left: 570px;
+    margin-top: 55px;
 }
 
 /* ______________CATEGORY___________________ */
@@ -59,6 +68,8 @@ a:hover{
     color: red;
 }
 
+  
+
 /* _________________PRODUCTLIST____________ */
 
 .introduktion{
@@ -75,7 +86,9 @@ a:hover{
     border-color: white;
     opacity: 0.7;
     text-align: center;
-    margin: 50px;
+    margin: 50px;  
+    margin-left: 150px;
+    margin-right: 200px;
 }
 
 .pl_season{
@@ -100,7 +113,7 @@ img{
 /* _________________PRODUCT____________ */
 
 
-.info_cirkel {
+.info_cirkel1  {
         border-style: solid;
         border-width: medium;
         background-color: white;
@@ -109,4 +122,36 @@ img{
         padding: 40px;
         border-radius: 100%;
         margin: 20px;
+        margin-left: 50px;
 }
+
+.info_cirkel2  {
+    border-style: solid;
+    border-width: medium;
+    background-color: white;
+    border-color: white;
+    text-align: center;
+    padding: 40px;
+    border-radius: 100%;
+    margin: 20px;
+    margin-right: 50px;
+}
+
+.info_cirkel3  {
+    border-style: solid;
+    border-width: medium;
+    background-color: white;
+    border-color: white;
+    text-align: center;
+    padding: 40px;
+    border-radius: 100%;
+    margin: 20px;
+    margin-left: 50px;
+}
+
+.tell_us_about{
+    min-height: 200px;
+    min-width: 400px;
+
+}
+
