@@ -33,23 +33,37 @@
         <img src="" alt=""> -->
 
         <section class="category">
-            <template id="categoryTemplate">
-                <li> <a href="productlist.html">Summer</a></li>
-            </template>
             <ol>
-
+                <li> <a href="productlist.html?seasons=spring">Spring</a> </li>
+                <li> <a href="productlist.html?seasons=summer">Summer</a></li>
+                <li> <a href="productlist.html?seasons=fall">Fall</a></li>
+                <li> <a href="productlist.html?seasons=winter">Winter</a></li>
             </ol>
         </section>
 
 
     </main>
     <footer>
+
+
+
+
+        <a href="https://www.instagram.com/vildmaddk/">
+            <img src="image/instagram.webp" alt=""></a>
+
+        <a href="https://www.facebook.com/vildmaddk">
+            <img src="image/facebook.webp" alt=""></a>
+
+        <a href="">
+            <img src="image/Skærmbillede 2024-02-18 kl. 21.33.30.png" alt=""></a>
+
         <form class="nyhedsbrev">
             <p>Join The Newsletter</p>
             <div>
                 <label>Name</label>
                 <div><input></div>
             </div>
+
             <div>
                 <label>Email</label>
                 <div><input></div>
@@ -59,24 +73,11 @@
                 <button class="send">SEND</button>
             </div>
         </form>
-        <div class="footer_insta">
-            <a href="https://www.instagram.com/vildmaddk/">
-                <img src="image/instagram.webp" alt="">
-            </a>
-        </div>
-        <div class="footer_face">
-            <a href="https://www.facebook.com/vildmaddk">
-                <img src="image/facebook.webp" alt="">
-            </a>
-        </div>
-        <div class="footer_logo">
-            <a href="">
-                <img src="image/Skærmbillede 2024-02-18 kl. 21.33.30.png" alt="">
-            </a>
-        </div>
     </footer>
     <script src="js/menu.js"></script>
     <script src="js/category.js"></script>
+
+    <template id="categoryTemplate"></template>
 </body>
 
 </html>
