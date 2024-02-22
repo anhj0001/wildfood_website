@@ -116,6 +116,18 @@ img {
   margin-bottom: 30px;
 }
 
+.card{
+  border-style: solid;
+  border-width: medium;
+  background-color: white;
+  border-color: white;
+  opacity: 0.8;
+  max-width: 69%;
+  text-align: center;
+  margin-top: -5px;
+  margin-bottom: 30px;
+  padding-bottom: 5px;
+}
 
 /* _________________PRODUCT____________ */
 
