@@ -9,6 +9,10 @@ p {
   line-height: 1.6em;
 }
 
+ol{
+  list-style-type: none;
+}
+
 /* ____________________FOOTER__________________ */
 footer {
   background-color: #cae4ae;
