@@ -9,7 +9,7 @@ p {
   line-height: 1.6em;
 }
 
-ol{
+ol {
   list-style-type: none;
 }
 
@@ -33,7 +33,7 @@ footer {
   margin-top: 5px;
 }
 
-/* ______________CATEGORY___________________ */
+/* ______________CATEGORY___________________
 
 .ontb{
   padding-left: 640px;
@@ -74,7 +74,7 @@ a {
 }
 a:hover {
   color: red;
-}
+} */
 
 /* _________________PRODUCTLIST____________ */
 
@@ -115,7 +115,6 @@ img {
   padding-left: 50px;
   margin-bottom: 30px;
 }
-
 
 /* _________________PRODUCT____________ */
 
