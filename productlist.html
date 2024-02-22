@@ -1,80 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Productlist</title>
-    <link rel="stylesheet" href="menu.css" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="layout.css" />
-  </head>
 
-  <body>
-    <header>
-      <div class="logo">
-        <a href="category.html">
-          <img src="image/Logo.webp" alt="Logo" />
-        </a>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Productlist</title>
+  <link rel="stylesheet" href="menu.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="layout.css" />
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <a href="category.html">
+        <img src="image/vildmad_logo.webp" alt="Logo">
+      </a>
+    </div>
+
+    <!-- <nav>
+      <ul class="menu">
+
+      </ul>
+      <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
       </div>
-      <nav>
-        <ul class="menu">
-          
-        </ul>
-        <div class="burger">
-          <div class="line"></div>
-          <div class="line"></div>
-          <div class="line"></div>
-        </div>
-      </nav>
-      <a href="category.html">Go Back</a>
-    </header>
-    <main class="grid_1-1-1">
-      <!--            billedet af urten
+    </nav> -->
+
+
+  </header>
+
+  <a href="category.html">Go Back</a>
+
+  <main class="grid_1-1-1">
+    <!--            billedet af urten
             <img src="" alt=""> -->
 
-      <section class="info_prodlist">
-        <h1 class="pl_season">SPRING</h1>
-        <p class="introduktion">
-          The season for seaweed collecting starts at the beginning of
-          spring—provided there are rocks in the water for spiral wrack and
-          gutweed, for example, to latch onto. In April, herbs start to pop up
-          in the second zone, amid the washed-up seaweed. Look for small
-          clusters of young, aquatic herbs such as sea plantain, garlic mustard,
-          and broadleaf pepperweed. On pebble beaches you can also pick sea
-          beet. Around sand dunes you'll find the hardy plants like stinging
-          nettles, plantain, and wild parsnip.
-        </p>
-      </section>
-     
-        <template id="productlistTemplate">
-        <section class="template">
-            <img src="https://vildmadv2.vps.webdock.io/application/files/6616/2445/6934/Logkarse_ravarkort_app.png" alt="">
-          <h2>urten</h2>
-      <!--     <p class="description">Kort om urten</p> -->
-          <a class="read_more" href="product.html" target="_blank">Clik On ME To Read More</a>
-        </section>
-      </template>
-    </main>
-    <footer>
-      <form class="nyhedsbrev">
-          <p>Join The Newsletter</p>
-          <div> 
-              <label>Name</label>
-              <div><input></div>
-          </div>
-          <div> 
-              <label>Email</label>
-              <div><input></div>
-          </div>
-              
-          <div> 
-              <button class="send">SEND</button></div>
-      </form>
+    <section class="info_prodlist">
+      <h1 class="pl_season">SPRING</h1>
+      <p class="introduktion">
+        The season for seaweed collecting starts at the beginning of
+        spring—provided there are rocks in the water for spiral wrack and
+        gutweed, for example, to latch onto. In April, herbs start to pop up
+        in the second zone, amid the washed-up seaweed. Look for small
+        clusters of young, aquatic herbs such as sea plantain, garlic mustard,
+        and broadleaf pepperweed. On pebble beaches you can also pick sea
+        beet. Around sand dunes you'll find the hardy plants like stinging
+        nettles, plantain, and wild parsnip.
+      </p>
+    </section>
 
-     
+    <template id="productlistTemplate">
+      <section class="template">
+
+        <img src="https://vildmadv2.vps.webdock.io/application/files/6616/2445/6934/Logkarse_ravarkort_app.png" alt="">
+
+        <h2>urten</h2>
+        <!--     <p class="description">Kort om urten</p> -->
+        <a class="read_more" href="product.html" target="_blank">Clik On ME To Read More</a>
+      </section>
+    </template>
+  </main>
+  <footer>
+    <form class="nyhedsbrev">
+      <p>Join The Newsletter</p>
+      <div>
+        <label>Name</label>
+        <div><input></div>
+      </div>
+      <div>
+        <label>Email</label>
+        <div><input></div>
+      </div>
+
+      <div>
+        <button class="send">SEND</button>
+      </div>
+    </form>
+
+
   </footer>
-    <script src="js/menu.js"></script>
-    <script src="js/productlist.js"></script>
-  </body>
+  <script src="js/menu.js"></script>
+  <script src="js/productlist.js"></script>
+</body>
+
 </html>

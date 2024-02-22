@@ -45,8 +45,6 @@ function showCategories(cat){
 
 } */
 
-
-
 const urlParams = new URLSearchParams(window.location.search);
 const id = urlParams.get("id");
 const url = "https://zjotvcbadfuutmuazywg.supabase.co/rest/v1/wildfood";
@@ -61,7 +59,7 @@ fetch(url, {
   .then(showCategories);
 
 function showCategories(categories) {
-   const template = document.querySelector("#categoryTemplate").content; 
+  const template = document.querySelector("#categoryTemplate").content;
   const addedCategories = new Set();
 
   const categoryContainer = document.querySelector(".category ol");
@@ -72,7 +70,7 @@ function showCategories(categories) {
     if (!addedCategories.has(categoryName)) {
       console.log("Adding category:", categoryName);
 
-    const clone = template.cloneNode(true);
+      const clone = template.cloneNode(true);
       clone.querySelector("a").textContent = category.season;
       clone.querySelector("a").href = `productlist.html?category=${category.season}`;
       categoryContainer.appendChild(clone);
@@ -80,4 +78,32 @@ function showCategories(categories) {
       addedCategories.add(categoryName);
     }
   });
+}
+
+let currentIndex = 0;
+const totalItems = document.querySelectorAll(".carousel-item").length;
+
+// Viser et bestemt billede i karrusellen.
+
+// Funktionen holder styr på det aktuelle billede med variablen currentIndex
+
+function showSlide(index) {
+  const container = document.querySelector(".carousel-container");
+  const slideWidth = document.querySelector(".carousel-item").offsetWidth;
+  container.style.transform = `translateX(-${index * slideWidth}px)`;
+  currentIndex = index;
+}
+
+// Næste billede
+
+function prevSlide() {
+  currentIndex = (currentIndex - 1 + totalItems) % totalItems;
+  showSlide(currentIndex);
+}
+
+// Forrige billede
+
+function nextSlide() {
+  currentIndex = (currentIndex + 1) % totalItems;
+  showSlide(currentIndex);
 }

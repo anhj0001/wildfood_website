@@ -1,68 +1,88 @@
 /* ______________GRIDS_________ */
 .grid_1-1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .grid_1-1-1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
-.info_prodlist{
-    grid-column: 1 / -1; 
+.info_prodlist {
+  grid-column: 1 / -1;
 }
 
 .row_2-3 {
-    grid-row: 2/3;
-    grid-column: 2/-1;
+  grid-row: 2/3;
+  grid-column: 2/-1;
 }
 
 .row_3-4 {
-    grid-row: 3/4;
+  grid-row: 3/4;
 }
 
 /* _______________RESPONSIV_____________ */
 /* ---productlist--- */
 @media (min-width: 1000px) {
-    .info_cirkel{
-       border-style: solid;
-       border-width: medium;
-       background-color: white;
-       border-color: white;
-       text-align: center;
-       border-radius: 100%;
-       padding: 70px;
-       margin-left: 70px;
-       margin-right: 70px;
-    }
-    
+  .info_cirkel {
+    border-style: solid;
+    border-width: medium;
+    background-color: white;
+    border-color: white;
+    text-align: center;
+    border-radius: 100%;
+    padding: 70px;
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+}
+
+@media (max-width: 700px) {
+  /*     -------PRODUKT----- */
+  .grid_1-1 {
+    display: block;
   }
 
-  @media (max-width: 700px){
-    
-/*     -------PRODUKT----- */
-    .grid_1-1 {
-        display: block;
-    }
-
-    .pic_product{
-        padding-left: 100px;
-    }
-
- /*    ------PRODUKTLISTE---- */
-
-    .grid_1-1-1 {
-        display: block;
-    }
-
-    .info_prodlist {
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    .pl_season {
-        margin: 0;
-    }
+  .pic_product {
+    padding-left: 100px;
   }
 
+  /*    ------PRODUKTLISTE---- */
+
+  .grid_1-1-1 {
+    display: block;
+  }
+
+  .info_prodlist {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .pl_season {
+    margin: 0;
+  }
+}
+
+.carousel {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.carousel-container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.carousel img {
+  width: 100%;
+  height: auto;
+  border: 5px solid var(--primary);
+  border-radius: 20px;
+}
