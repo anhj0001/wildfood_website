@@ -34,6 +34,15 @@ footer {
 }
 
 /* ______________CATEGORY___________________ */
+
+.ontb{
+  padding-left: 640px;
+}
+
+.sea{
+  padding-left: 700px;
+}
+
 .category {
   font-size: 40px;
   border-style: solid;
@@ -43,8 +52,8 @@ footer {
   opacity: 0.7;
   padding: 20px;
   margin: 30px;
-  margin-left: 70px;
-  margin-right: 70px;
+  margin-left: 150px;
+  margin-right: 150px;
   text-align: center;
 }
 

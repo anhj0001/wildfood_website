@@ -25,7 +25,7 @@
 /* _______________RESPONSIV_____________ */
 /* ---productlist--- */
 @media (min-width: 1000px) {
-    .info_cirkel{
+    .info_cirke1l{
        border-style: solid;
        border-width: medium;
        background-color: white;
@@ -36,13 +36,41 @@
        margin-left: 70px;
        margin-right: 70px;
     }
+    .info_cirke2l{
+        border-style: solid;
+        border-width: medium;
+        background-color: white;
+        border-color: white;
+        text-align: center;
+        border-radius: 100%;
+        padding: 70px;
+        margin-left: 70px;
+        margin-right: 70px;
+     }
+     .info_cirke3l{
+        border-style: solid;
+        border-width: medium;
+        background-color: white;
+        border-color: white;
+        text-align: center;
+        border-radius: 100%;
+        padding: 70px;
+        margin-left: 70px;
+        margin-right: 70px;
+     }
     
+       /*  --------category------ */
   }
 
   @media (max-width: 700px){
+
     
 /*     -------PRODUKT----- */
     .grid_1-1 {
+        display: block;
+    }
+
+    .grid_1-1-1 {
         display: block;
     }
 
@@ -64,5 +92,21 @@
     .pl_season {
         margin: 0;
     }
+
+
+        .pic_product{
+            margin: 0;
+        }
+    .input_text{
+        padding: 0;
+        margin: 0;
+    }
+    .tell_us_about{
+        padding: 0;
+        margin: 0;
+    }
+    
+    
+
   }
 
